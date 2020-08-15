@@ -1,0 +1,27 @@
+#buttons {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#buttons button {
+    height: 60px;
+}
+
+
+#menu {
+    display: block;
+}
+
+#menu h1 {
+    color: #fff;
+}
+
+#menu .buttons {
+    display: flex;
+    justify-content: center;
+}
+
+#menu button {
+    margin: 20px;
+}

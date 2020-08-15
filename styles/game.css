@@ -1,0 +1,52 @@
+#game-canvas {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: #000;
+}
+
+#score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 450px;
+
+    margin: 20px;
+
+    background: #fff;
+
+    font-size: 42px;
+}
+
+#score span {
+    margin: 10px;
+}
+
+#canvas {
+    width: 450px;
+    height: 450px;
+
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+
+    background: #fff;
+}
+
+.position {
+    text-align: center;
+    line-height: 150px;
+    font-size: 7rem;
+
+    border: 1px solid #000;
+}
+
+#btns {
+    margin: 20px;
+}
+
+
+
